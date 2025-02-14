@@ -1,0 +1,36 @@
+body{background-color: rgb(253, 220, 226);}
+
+#girly{background-color: rgb(255, 170, 199); margin-top: 30px; padding: 20px;}
+button {
+    background-color: pink;
+
+}
+
+nav {background-color: palevioletred;
+    position: fixed;
+    width: 100%; /* Ensure navbar takes full width */
+
+}
+
+a{color: white;}
+
+#p1 {
+    margin-top: 70px; /* Adjust as needed for navbar height */
+    display: flex; /* Enable flexbox for #p1 */
+    align-items: flex-start; /* Align items to the top of the container */
+    gap: 20px; /* Add some space between image and text */
+}
+
+#img1 {
+    margin-top: 30px;
+    width: 100px; /* Set a specific width for the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.p1 {
+  flex: 1; /* Allow the text to take up available space */
+}
+
+#go{background-color: palevioletred;margin-top: 10px;}
+#sip{background-color: rgb(253, 176, 189);margin-top: 10px;}
+#girl{background-color: palevioletred;margin-top: 10px;}
